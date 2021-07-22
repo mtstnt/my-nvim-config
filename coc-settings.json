@@ -1,0 +1,31 @@
+{
+  "java.import.gradle.enabled": true,
+  "java.completion.enabled": true,
+  "java.format.enabled": true, 
+  "java.enabled": true,
+  "codeLens.enable": true,
+  "java.referencesCodeLens.enabled": true,
+  "languageserver": {
+    "intelephense": {
+      "command": "intelephense",
+      "args": ["--stdio"],
+      "filetypes": ["php"],
+      "initializationOptions": {
+        "storagePath": "/tmp/intelephense"
+      }
+    },
+    "rust": {
+      "filetypes": ["rs"],
+      "command": "rls"
+    },
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    },
+    "flutter": {
+      "filetypes": [".dart"]
+    }
+  },
+  "clangd.path": "C:\\Users\\Matthew\\AppData\\Local\\coc\\extensions\\coc-clangd-data\\install\\11.0.0\\clangd_11.0.0\\bin\\clangd.exe"
+}
