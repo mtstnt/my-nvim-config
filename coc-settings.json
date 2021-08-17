@@ -5,16 +5,9 @@
   "java.enabled": true,
   "codeLens.enable": true,
   "java.referencesCodeLens.enabled": true,
+  "rust-analyzer.server.path": "C:\\Users\\Matthew\\AppData\\Local\\coc\\extensions\\coc-rust-analyzer-data\\rust-analyzer.exe",
   "languageserver": {
-    "intelephense": {
-      "command": "intelephense",
-      "args": ["--stdio"],
-      "filetypes": ["php"],
-      "initializationOptions": {
-        "storagePath": "/tmp/intelephense"
-      }
-    },
-    "rust": {
+   "rust": {
       "filetypes": ["rs"],
       "command": "rls"
     },
